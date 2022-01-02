@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec91c35-1198-44b8-a34d-c8f4f1a4713e">
+  <producedTypes>
+    <refType typeId="ee7db3fb-3748-4455-a38b-0efb1c2ded05" valueTypeId="0e5c4f63-453d-4045-a9c7-34fb3bb6fc64"/>
+    <listType typeId="06dbd0b5-7fa3-4389-a62e-894ba0992a7c" valueTypeId="d8a995ad-1e05-4298-a0d9-97a81ce243dd"/>
+    <managerType typeId="f37da769-37d7-4be3-9708-22dcf07ac8ae" valueTypeId="05b54be7-a866-4bb4-9294-ae2b6c59118c"/>
+  </producedTypes>
+  <name>РежимЗапуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим запуска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78e44daf-ed9f-471d-833f-8707eee1f8be">
+    <name>ТолстыйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Толстый клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b40550f-a24b-4885-9ed5-dd322c31a948">
+    <name>ТонкийКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тонкий клиент</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
